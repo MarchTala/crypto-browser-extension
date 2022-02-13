@@ -1,0 +1,21 @@
+{
+  "name" : "Loyalcoin: API by MT",
+  "version" : "1.1",
+  "description" : "Realtime Loyalcoin Price",
+  "permissions": [
+    "browsingData"
+  ],
+  "browser_action": {
+     "default_icon": "sc.png",
+     "default_popup": "crypto.html"
+  },
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "default": "Ctrl+X",
+        "mac": "MacCtrl+X"
+      }
+    }
+  },
+  "manifest_version": 2
+}

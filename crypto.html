@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Cryptocurrency</title>
+    <style>
+        table {
+            font-size: 15px;
+        }
+        img {
+            width: 16px;
+            height: 16px;
+        }
+        #badgeText
+        {
+            position: absolute;
+            bottom: 0px;
+            right: 0px;
+            font: 8px Sans-Serif;
+            color: #FFFFFF;
+            background-color: #C00000;
+            border: 1px solid #800000;
+        }
+    </style>
+    <script src="lyl.js"></script>
+    <script src="data.js"></script>
+    <script src="background.js"></script>
+
+</head>
+<body>
+
+<div style = "width: 250px;">
+    <b style = "font-size: 18px; text-align: right;">Total Profit</b>
+    <div class = "total_profit" style = "font-size: 20px; text-align: right; float: right;">₱0.00</div>
+
+    <div style = "border-bottom: 1px solid; margin-top: 10px; margin-bottom: 15px;"></div>
+
+    <div class = "lyl" style = "margin-top: 20px;">
+        <img src = "lyl.png"> <b style = "font-size: 18px;">Loyalcoin</b>
+        <div title = "Holdings" class = "lyl_hold" style = "font-size: 15px;">H: 00,000.00</div>
+        <div title = "Profit" class = "lyl_profit" style = "font-size: 15px;">P: 00,000.00</div>
+        <div class = "lyl_btc" style = "text-align: right; font-size: 15px; margin-top: -18px;">0.00000000</div>
+        <div class = "lyl_php" style = "text-align: right; margin-top: -45px; font-size: 20px;">₱0.00</div>
+        <br />
+        <input type = "hidden" id = "lyl_profit">
+    </div>
+
+    <div style = "border-bottom: 1px solid; margin-top: 20px; margin-bottom: 15px;"></div>
+
+    <div class = "etn" style = "margin-bottom: 15px;">
+        <img src = "etn.png"> <b style = "font-size: 18px;">Electroneum</b>
+        <div title = "Holdings" class = "etn_hold" style = "font-size: 15px;">H: 00,000.00</div>
+        <div title = "Profit" class = "etn_profit" style = "font-size: 15px;">P: 00,000.00</div>
+        <div class = "etn_btc" style = "text-align: right; font-size: 15px; margin-top: -18px;">0.00000000</div>
+        <div class = "etn_php" style = "text-align: right; margin-top: -45px; font-size: 20px;">₱0.00</div>
+        <br />
+        <input type = "hidden" id = "etn_profit">
+    </div>
+
+    <div style = "border-bottom: 1px solid; margin-top: 10px; margin-bottom: 15px;"></div>
+    <div style = "margin-top: -10px; font-size: 11px; font-style: italic; text-align: left;">TIP: Press Ctrl+X for shortcut</div>
+    <div style = "margin-top: 10px; margin-bottom: 15px; font-size: 12px; font-style: italic; text-align: right;">Developed by MT</div>
+</div>
+
+
+
+</body>
+</html>
